@@ -1,0 +1,23 @@
+.event-card {
+  border-radius: 16px;
+  overflow: hidden;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.event-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.15);
+}
+
+.event-img {
+  height: 180px;
+  object-fit: cover;
+}
+
+.desc {
+  color: #555;
+  line-height: 1.4;
+  max-height: 4.2em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
